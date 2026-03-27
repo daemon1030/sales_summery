@@ -3,8 +3,8 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime, timedelta
 
-st.set_page_config(page_title="new김밥나라 정산 시스템", layout="wide")
-st.title("🍱 new김밥나라 매출/지출 상세 분석")
+st.set_page_config(page_title="매출 정산 시스템", layout="wide")
+st.title("매출/지출 상세 분석")
 
 uploaded_file = st.file_uploader("엑셀 파일을 업로드하세요 (.xlsx)", type=["xlsx"])
 
